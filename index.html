@@ -35,7 +35,7 @@
             
             // GLTF Loader
             const loader = new THREE.GLTFLoader();
-            loader.load('/Users/andreazevedo/Desktop/3D viewer POC/cube.gltf', function (gltf) {
+            loader.load('cube.gltf', function (gltf) {
                 model = gltf.scene;
                 scene.add(model);
             }, undefined, function (error) {
